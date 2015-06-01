@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+html{
+    margin: 0px 0px 0px 0px;
+}
+
+body{
+    width: 1020px;
+    margin: 0px 0px 0px 0px;
+}
+
+#container {
+	text-align:center;
+	width:500px;
+    height: auto;
+	margin:0 auto 0 auto;
+}
+
+h1 {
+	font-family:verdana;
+}
+
+ul {
+	padding:10px 20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	width:100px;
+	display:block;
+	height:15px;
+	clear:both;
+	margin:0 auto 0 auto;
+	text-align:center;
+}
+
+ul li {
+	list-style:none;
+	font-family:verdana;
+	font-size:12px;
+}
+/*menu vertical*/
+nav #menu_vetical a #logo{
+    font-family: Castellar;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    top: 50px;
+    left: 30px;
+    width: 207px;
+    height: 36px;
+}
+
+nav #menu_vertical a{
+    font-family: Constantia;
+}
+
+nav #menu_vertical{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 260px;
+    height: 597px;
+    left: 0px;
+    top: 0px;   
+}
+
+/*menu topo*/
+nav #menu_topo{
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 1020px;
+    height: 70px;
+}
+
+/*home*/
+#home{
+    background-color: #929292;
+    height: 600px;
+}
+
+/*perfil*/
+#perfil{
+    background-color: #4000ff;
+    height: 600px;
+}
+
+/*biografia*/
+#biografia{
+    background-color:#d60000;
+    height: 600px;
+}
+
+/*discografia*/
+#discografia{
+    background-color:#00b050;
+    height: 600px;
+}
+
+/*midia*/
+#midia{
+    background-color:#ffc000;
+    height: 600px;
+}
+
+/*news*/
+#news{
+    background-color: #9900cc;
+    height: 600px;
+}
+
+/*goods*/
+#goods{
+    background-color: #bbbbbb;
+    height: 600px;
+}
+
+/*contato*/
+#contato{
+    background-color: #2c2c2c;
+    height: 600px;
+}

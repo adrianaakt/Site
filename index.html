@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang=pt>
+    <head>
+        <meta charset="utf-8"/>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/slide.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('#fade').list_ticker({
+                speed:2000,
+                effect:'fade'
+            });
+            
+        })
+        </script>
+    </head>
+    <body>    
+        <section id="main">
+            <div id="home">
+                <nav id="menu_vertical">
+                    <a id="logo" href="#home">ARASHI</a>
+                    <img src="images/estrelas.png"/>
+                    <a href="#perfil">Perfil</a>
+                    <img id="linha1" class="linha" src="images/linha-1.png"/>
+                    <a href="#biografia">Biografia</a>
+                    <img id="linha2" class="linha" src="images/linha-2.png"/>
+                    <a href="#discografia">Discografia</a>
+                    <img id="linha3" class="linha" src="images/linha-3.png"/>
+                    <a href="#midia">Mídia</a>
+                    <img id="linha4" class="linha" src="images/linha-4.png"/>
+                    <a href="#news">News</a>
+                    <img id="linha5" class="linha" src="images/linha-5.png"/>
+                    <a href="#goods">Goods</a>
+                    <img id="linha6" class="linha" src="images/linha-6.png"/>
+                    <a href="contato">Contato</a>
+                </nav>    
+                
+                <!--Slide imagens-->
+                <div id="container">
+                    <ul id="fade">
+                        <li><img src="http://freethumbs.dreamstime.com/1031/big/free_10318379.jpg"/></li>
+                        <li><img src="http://www.hereisfree.com/content1//imguploads/Image/cjbc/zcool/20080523/1211544381.jpg"/></li>
+                        <li><img src="http://angelopetry.com/site/conteudo/wp-content/uploads/sites/2/2011/11/1211544519.jpg"/></li>
+                    </ul>
+                </div>
+                <!--Fim slide-->
+            </div>
+        </section>
+        
+        <section id="corpo">
+            
+            <header>
+                <nav id="menu_topo">
+                    <a href="#home">ARASHI</a>
+                    <a href="#perfil">Perfil</span></a> | 
+                    <a href="#biografia">Biografia</span></a> | 
+                    <a href="#discografia">Discografia</span></a> | 
+                    <a href="#midia">Mídia</span></a> | 
+                    <a href="#news">News</span></a> | 
+                    <a href="#goods">Goods</span></a> | 
+                    <a href="contato">Contato</a>
+                </nav>
+            </header>
+            
+            <div id="perfil">
+                <img src="images/estrela.png"/>
+                <h1>Perfil</h1>
+                <img src="images/traco.png"/>
+                <div id="grupo">
+                    <ul>
+                        <li>
+                            <img src="images/Aiba.png"/>
+                            <img src="images/Aiba-Perfil.png"/>
+                            <h2>Aiba Masaki</h2>
+                            <p>Nasc: 24/12/1982</p>
+                            <p>Chiba - JP</p>
+                        </li>
+                        <li>
+                            <img src="images/Jun.png"/>
+                            <img src="images/Jun-Perfil-.png"/>
+                            <h2>Matsumoto Jun</h2>
+                            <p>Nasc: 30/08/1983</p>
+                            <p>Tokyo - JP</p>
+                        </li>
+                        <li>
+                            <img src="images/Nino.png"/>
+                            <img src="images/Nino-Perfil.png"/>
+                            <h2>Ninimiya Kazunari</h2>
+                            <p>Nasc: 17/06/1983</p>
+                            <p>Tokyo - JP</p>
+                        </li>
+                        <li>
+                            <img src="images/Ohno.png"/>
+                            <img src="images/Ohno-Perfil.png"/>
+                            <h2>Ohno Satoshi</h2>
+                            <p>Nasc: 26/11/1980</p>
+                            <p>Tokyo - JP</p>
+                        </li>
+                        <li>
+                            <img src="images/Sho.png"/>
+                            <img src="images/Sho-Perfil.png"/>
+                            <h2>Sakurai Sho</h2>
+                            <p>Nasc: 25/01/1982</p>
+                            <p>Tokyo - JP</p>
+                        </li>        
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="biografia">
+                <img src="images/estrela-2.png"/>
+                <h1>Biografia</h1>
+                <img src="images/traco2.png"/>
+                <div id="slideBiografia"></div>
+            </div>
+            
+            <div id="discografia">
+                <img src="images/estrela-3.png"/>
+                <h1>Discografia</h1>
+                <img src="images/traco3.png"/>
+                <div id="single"></div>
+                <div id="dvd"></div>
+                <div id="album"></div>
+                <div id="pv"></div>
+            </div>
+            
+            <div id="midia">
+                <img src="images/estrela-4.png"/>
+                <h1>Mídia</h1>
+                <img src="images/traco4.png"/>
+                <div id="programas">
+                    <ul id="membros">
+                        <li id="programAiba"></li>
+                        <li id="programJun"></li>
+                        <li id="programNino"></li>
+                        <li id="programOhno"></li>
+                        <li id="programSho"></li>
+                    </ul>
+                </div>    
+            </div>
+            
+            <div id="news">
+                <img src="images/estrela-5.png"/>
+                <h1>News</h1>
+                <img src="images/traco5.png"/>
+                <div id="ultimas"></div>           
+                <div id="populares">
+                    <ul id="noticias">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="goods">
+                <img src="images/estrela-6.png"/>
+                <h1>Goods</h1>
+                <img src="images/traco6.png"/>
+                <div id="lancamentos"></div>
+                <div id="categorias"></div>
+            </div>
+            
+            <div id="contato">
+                <img src="images/estrela-7.png"/>
+                <h1>Contato</h1>
+                <img src="images/traco7.png"/>
+                <img src="images/arashi.png"/>
+                <div id="formulario">
+                    <form>
+                        Nome:<input type="text" name="nome" value=""/> <br/>
+                        Email: <input type="text" name="email" value=""/><br/>
+                        Mensagem:<br/>
+                        <textarea name="mensagem" rows="10" cols="50"></textarea><br/>
+                        <input type="submit" value="Enviar"/>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
